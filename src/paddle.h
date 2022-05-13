@@ -7,7 +7,7 @@
 #include "entity.h"
 #include "game.h"
 
-class Paddle : public Entity {
+class [[cheerp::genericjs]] Paddle : public Entity {
 public:
     /**
      * @brief Construct a new Paddle object
@@ -34,7 +34,7 @@ private:
     int speed = 8;
 };
 
-class ComputerPaddle: public Entity {
+class [[cheerp::genericjs]] ComputerPaddle: public Entity {
 public:
     /**
      * @brief Construct a new Computer Paddle object

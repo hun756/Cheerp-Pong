@@ -261,11 +261,12 @@ function __ZN6cheerp7ClosureIFvvEEcvPN6client13EventListenerEEv(Larg0){
 function __ZN6cheerp7ClosureIFvvEE14deleter_helperEPNS2_13DeleterHelperE(Larg0){
 	Larg0.a0(Larg0.a1);
 }
-function __Z7webMainv(){
+function _main(){
 	var tmp0=null;
 	tmp0={a0:null,a1:null,a2:null,a3:null,a4:null};
 	__ZN4GameC2Ev(tmp0);
 	__ZN4Game4loopEv(tmp0);
+	return 0|0;
 }
 function __ZN6Paddle6updateEPN6client17HTMLCanvasElementE(Larg0,Larg1){
 	var tmp0=0,tmp1=0;
@@ -312,4 +313,4 @@ var _$pstr$p4=new Uint8Array([107,101,121,117,112,0]);
 function cheerpCreateClosure(func, obj){return function(){var a=Array.prototype.slice.call(arguments);a.unshift(obj);return func.apply(null,a);};}
 function cheerpCreateClosureSplit(func, obj, objo){return function(){var a=Array.prototype.slice.call(arguments);a.unshift(obj,objo);return func.apply(null,a);};}
 ___cxx_global_var_init();
-__Z7webMainv();
+_main();

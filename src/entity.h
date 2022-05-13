@@ -9,7 +9,7 @@
  *  Base entity class for Paddle ComputerPaddle and 
  * @class Entity
  */
-class Entity {
+class [[cheerp::genericjs]] Entity {
 public:
     /**
      * @brief Construct a new Entity object

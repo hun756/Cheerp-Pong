@@ -3,8 +3,8 @@
 
 #include "ball.h"
 
-class Paddle;
-class ComputerPaddle;
+class [[cheerp::genericjs]] Paddle;
+class [[cheerp::genericjs]] ComputerPaddle;
 
 /** definitions */
 #define COLOR_WHITE "#fff"

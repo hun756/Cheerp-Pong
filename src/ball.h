@@ -6,11 +6,11 @@
 
 #include "entity.h"
 
-class Paddle;
-class ComputerPaddle;
-class Game;
+class [[cheerp::genericjs]] Paddle;
+class [[cheerp::genericjs]] ComputerPaddle;
+class [[cheerp::genericjs]] Game;
 
-class Ball: public Entity {
+class [[cheerp::genericjs]] Ball: public Entity {
 public:
     /**
      * @brief Construct a new Ball object

@@ -4,7 +4,7 @@
 #include "game.h"
 
 /** Application EntryPoint */
-void webMain() {
+[[cheerp::genericjs]] int main() {
     auto _instance = new Game();
     _instance->loop();
     
